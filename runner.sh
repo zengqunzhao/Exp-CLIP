@@ -1,11 +1,4 @@
 #!/bin/bash
-#$ -cwd
-#$ -j y
-#$ -l h_rt=240:0:0     
-#$ -l h_vmem=11G      
-#$ -pe smp 8
-#$ -l gpu=1
-#$ -l gpu_type=ampere
 
 module load miniconda
 conda activate ExpCLIP

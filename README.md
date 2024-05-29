@@ -24,7 +24,7 @@ Extra setup for the txt files in **./annotation/**: Please check [preprocessing]
 ```sh runner.sh```
 
 ## Pre-trained Models
-The pre-trained project head are available in ```./checkpoint```
+The pre-trained projection head are available in ```./checkpoint```
 
 ## Performance
 <p align="center">
