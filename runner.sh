@@ -1,8 +1,5 @@
 #!/bin/bash
 
-module load miniconda
-conda activate ExpCLIP
-
 python train.py \
 --workers 8 \
 --epochs 5 \
