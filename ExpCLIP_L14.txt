@@ -1,0 +1,183 @@
+Variable OMP_NUM_THREADS has been set to 8
+Training date:  24-05-29 16:02
+************************
+workers = 8
+epochs = 5
+batch_size = 512
+batch_size_test_image = 512
+batch_size_test_video = 64
+lr = 0.001
+weight_decay = 0.0001
+momentum = 0.9
+print_freq = 10
+milestones = [30]
+seed = 1
+job_id = 3596144
+instruction = Please play the role of a facial action describer. Objectively describe the detailed facial actions of the person in the image.
+load_model = CLIP_L14
+************************
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:20<01:23, 20.82s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:43<01:05, 21.94s/it]Loading checkpoint shards:  60%|██████    | 3/5 [01:08<00:46, 23.32s/it]Loading checkpoint shards:  80%|████████  | 4/5 [01:34<00:24, 24.51s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:50<00:00, 21.16s/it]Loading checkpoint shards: 100%|██████████| 5/5 [01:50<00:00, 22.01s/it]
+********************0********************
+Epoch: [0][ 0/95]	Loss 6.4382 (6.4382)	Accuracy  0.195 ( 0.195)
+Epoch: [0][10/95]	Loss 6.3195 (6.3764)	Accuracy  0.195 ( 0.302)
+Epoch: [0][20/95]	Loss 6.2249 (6.3225)	Accuracy  0.195 ( 0.251)
+Epoch: [0][30/95]	Loss 6.1427 (6.2761)	Accuracy  0.000 ( 0.321)
+Epoch: [0][40/95]	Loss 6.0782 (6.2331)	Accuracy  0.781 ( 0.400)
+Epoch: [0][50/95]	Loss 5.9824 (6.1926)	Accuracy  1.758 ( 0.525)
+Epoch: [0][60/95]	Loss 5.9192 (6.1523)	Accuracy  1.367 ( 0.621)
+Epoch: [0][70/95]	Loss 5.8380 (6.1139)	Accuracy  1.758 ( 0.748)
+Epoch: [0][80/95]	Loss 5.7901 (6.0768)	Accuracy  2.344 ( 0.858)
+Epoch: [0][90/95]	Loss 5.7180 (6.0411)	Accuracy  3.320 ( 0.979)
+The train accuracy: 1.032
+An epoch time: 610.22s
+********************1********************
+Epoch: [1][ 0/95]	Loss 5.6787 (5.6787)	Accuracy  3.320 ( 3.320)
+Epoch: [1][10/95]	Loss 5.6142 (5.6586)	Accuracy  4.102 ( 2.717)
+Epoch: [1][20/95]	Loss 5.5770 (5.6289)	Accuracy  2.734 ( 2.846)
+Epoch: [1][30/95]	Loss 5.4890 (5.5967)	Accuracy  4.102 ( 3.012)
+Epoch: [1][40/95]	Loss 5.4472 (5.5659)	Accuracy  2.539 ( 3.154)
+Epoch: [1][50/95]	Loss 5.3391 (5.5336)	Accuracy  6.641 ( 3.412)
+Epoch: [1][60/95]	Loss 5.2892 (5.5003)	Accuracy  4.492 ( 3.673)
+Epoch: [1][70/95]	Loss 5.2733 (5.4677)	Accuracy  4.102 ( 3.821)
+Epoch: [1][80/95]	Loss 5.1790 (5.4349)	Accuracy  6.055 ( 4.049)
+Epoch: [1][90/95]	Loss 5.1149 (5.4024)	Accuracy  8.789 ( 4.351)
+The train accuracy: 4.412
+An epoch time: 596.12s
+********************2********************
+Epoch: [2][ 0/95]	Loss 5.0514 (5.0514)	Accuracy  6.836 ( 6.836)
+Epoch: [2][10/95]	Loss 4.9778 (5.0271)	Accuracy  8.594 ( 6.854)
+Epoch: [2][20/95]	Loss 4.8914 (4.9786)	Accuracy  8.594 ( 7.478)
+Epoch: [2][30/95]	Loss 4.8356 (4.9361)	Accuracy  7.617 ( 7.876)
+Epoch: [2][40/95]	Loss 4.7495 (4.8955)	Accuracy  9.570 ( 8.117)
+Epoch: [2][50/95]	Loss 4.6306 (4.8517)	Accuracy 12.500 ( 8.601)
+Epoch: [2][60/95]	Loss 4.5739 (4.8066)	Accuracy 11.133 ( 9.160)
+Epoch: [2][70/95]	Loss 4.4268 (4.7604)	Accuracy 11.719 ( 9.590)
+Epoch: [2][80/95]	Loss 4.3620 (4.7146)	Accuracy 15.234 (10.060)
+Epoch: [2][90/95]	Loss 4.2595 (4.6688)	Accuracy 12.109 (10.485)
+The train accuracy: 10.641
+An epoch time: 595.96s
+********************3********************
+Epoch: [3][ 0/95]	Loss 4.1833 (4.1833)	Accuracy 15.234 (15.234)
+Epoch: [3][10/95]	Loss 4.1782 (4.1836)	Accuracy 17.188 (15.288)
+Epoch: [3][20/95]	Loss 4.0704 (4.1463)	Accuracy 17.188 (16.127)
+Epoch: [3][30/95]	Loss 3.9526 (4.1083)	Accuracy 17.188 (16.614)
+Epoch: [3][40/95]	Loss 3.9290 (4.0707)	Accuracy 21.875 (17.188)
+Epoch: [3][50/95]	Loss 3.9284 (4.0391)	Accuracy 17.969 (17.570)
+Epoch: [3][60/95]	Loss 3.8498 (4.0096)	Accuracy 20.508 (18.042)
+Epoch: [3][70/95]	Loss 3.8209 (3.9816)	Accuracy 22.266 (18.475)
+Epoch: [3][80/95]	Loss 3.7436 (3.9525)	Accuracy 21.484 (18.856)
+Epoch: [3][90/95]	Loss 3.6656 (3.9276)	Accuracy 22.461 (19.274)
+The train accuracy: 19.418
+An epoch time: 596.69s
+********************4********************
+Epoch: [4][ 0/95]	Loss 3.6145 (3.6145)	Accuracy 24.805 (24.805)
+Epoch: [4][10/95]	Loss 3.6170 (3.6594)	Accuracy 21.875 (22.869)
+Epoch: [4][20/95]	Loss 3.6240 (3.6380)	Accuracy 20.508 (23.354)
+Epoch: [4][30/95]	Loss 3.5475 (3.6261)	Accuracy 24.219 (23.608)
+Epoch: [4][40/95]	Loss 3.5301 (3.6097)	Accuracy 28.516 (24.119)
+Epoch: [4][50/95]	Loss 3.4970 (3.5904)	Accuracy 25.977 (24.575)
+Epoch: [4][60/95]	Loss 3.4814 (3.5760)	Accuracy 26.953 (24.785)
+Epoch: [4][70/95]	Loss 3.4206 (3.5592)	Accuracy 25.586 (25.143)
+Epoch: [4][80/95]	Loss 3.4564 (3.5434)	Accuracy 24.219 (25.511)
+Epoch: [4][90/95]	Loss 3.2843 (3.5248)	Accuracy 28.906 (25.865)
+The train accuracy: 25.989
+An epoch time: 598.28s
+************************
+load_model = CLIP_L14
+job_id = 3596144
+************************
+************************************************************************** Zero-shot Prompt Type:  Class Name
+******************** Static FER Zero-shot Performance ********************
+************************* RAFDB
+UAR/WAR: 50.38/55.02
+************************* AffectNet7
+UAR/WAR: 37.92/37.93
+************************* AffectNet8
+UAR/WAR: 33.28/33.28
+************************* FERPlus
+UAR/WAR: 48.06/50.59
+******************** Dynamic FER Zero-shot Performance ********************
+************************* DFEW
+UAR/WAR: 26.65/31.36
+************************* FERV39k
+UAR/WAR: 23.01/24.99
+************************* MAFW
+UAR/WAR: 20.67/23.78
+************************* AFEW
+UAR/WAR: 32.16/33.07
+************************************************************************** Zero-shot Prompt Type:  An Expression of Name
+******************** Static FER Zero-shot Performance ********************
+************************* RAFDB
+UAR/WAR: 58.08/62.87
+************************* AffectNet7
+UAR/WAR: 42.41/42.41
+************************* AffectNet8
+UAR/WAR: 37.43/37.43
+************************* FERPlus
+UAR/WAR: 51.07/55.66
+******************** Dynamic FER Zero-shot Performance ********************
+************************* DFEW
+UAR/WAR: 38.22/38.07
+************************* FERV39k
+UAR/WAR: 27.44/26.23
+************************* MAFW
+UAR/WAR: 25.12/28.99
+************************* AFEW
+UAR/WAR: 37.90/37.80
+************************************************************************** Zero-shot Prompt Type:  A Photo of A Face with An Expression of Name
+******************** Static FER Zero-shot Performance ********************
+************************* RAFDB
+UAR/WAR: 57.93/65.94
+************************* AffectNet7
+UAR/WAR: 44.47/44.47
+************************* AffectNet8
+UAR/WAR: 38.41/38.41
+************************* FERPlus
+UAR/WAR: 46.95/55.82
+******************** Dynamic FER Zero-shot Performance ********************
+************************* DFEW
+UAR/WAR: 40.73/47.09
+************************* FERV39k
+UAR/WAR: 27.94/31.57
+************************* MAFW
+UAR/WAR: 24.19/27.31
+************************* AFEW
+UAR/WAR: 40.27/41.47
+************************************************************************** Zero-shot Prompt Type:  Expression Ensemble Five
+******************** Static FER Zero-shot Performance ********************
+************************* RAFDB
+UAR/WAR: 57.18/63.20
+************************* AffectNet7
+UAR/WAR: 42.90/42.90
+************************* AffectNet8
+UAR/WAR: 37.93/37.93
+************************* FERPlus
+UAR/WAR: 51.47/54.64
+******************** Dynamic FER Zero-shot Performance ********************
+************************* DFEW
+UAR/WAR: 39.50/41.83
+************************* FERV39k
+UAR/WAR: 28.72/28.86
+************************* MAFW
+UAR/WAR: 25.64/29.31
+************************* AFEW
+UAR/WAR: 37.74/38.32
+************************************************************************** Zero-shot Prompt Type:  Expression Ensemble Ten
+******************** Static FER Zero-shot Performance ********************
+************************* RAFDB
+UAR/WAR: 57.99/63.89
+************************* AffectNet7
+UAR/WAR: 43.70/43.70
+************************* AffectNet8
+UAR/WAR: 38.31/38.31
+************************* FERPlus
+UAR/WAR: 50.95/54.86
+******************** Dynamic FER Zero-shot Performance ********************
+************************* DFEW
+UAR/WAR: 40.30/45.02
+************************* FERV39k
+UAR/WAR: 29.17/31.43
+************************* MAFW
+UAR/WAR: 26.33/31.52
+************************* AFEW
+UAR/WAR: 39.47/40.42

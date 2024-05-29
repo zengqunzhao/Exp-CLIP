@@ -1,0 +1,11 @@
+- conda create -n ExpCLIP python=3.10 -y
+- conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+- conda install transformers
+- conda install tqdm
+- conda install regex
+- conda install pyyaml
+- conda install pandas
+- conda install pydantic
+- conda install click
+- pip install timm
+- pip install einops
