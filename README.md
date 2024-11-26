@@ -33,7 +33,7 @@ The pre-trained projection head are available in ``./checkpoint``
 ## Performance
 
 <p align="center">
-    <img src="./img/tabs.png" alt="svg" width="600"/>
+    <img src="./img/tabs.png" alt="svg" width="800"/>
 </p>
 
 UAR: Unweighted Average Recall (the accuracy per class divided by the number of classes without considering the number of
