@@ -6,7 +6,7 @@
 
 This is a PyTorch implementation of the paper:
 
-*Zengqun Zhao, Yu Cao, Shaogang Gong, and Ioannis Patras. "[Enhancing Zero-Shot Facial Expression Recognition by LLM Knowledge Transfer](https://arxiv.org/abs/2405.19100)", IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025.*
+*Zengqun Zhao, Yu Cao, Shaogang Gong, and Ioannis Patras. "[Enhancing Zero-Shot Facial Expression Recognition by LLM Knowledge Transfer](https://arxiv.org/abs/2405.19100)", IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025. (Oral Presentation)*
 
 ### Abstract
 
@@ -45,11 +45,12 @@ WAR: Weighted Average Recall (accuracy)
 If you find our work useful, please consider citing our paper:
 
 ```
-@inproceedings{zhao2025enhancing,
-  title={Enhancing Zero-Shot Facial Expression Recognition by LLM Knowledge Transfer},
-  author={Zhao, Zengqun and Cao, Yu and Gong, Shaogang and Patras, Ioannis},
-  booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  pages={1--10},
-  year={2025}
+@InProceedings{Zhao_2025_WACV,
+    author    = {Zhao, Zengqun and Cao, Yu and Gong, Shaogang and Patras, Ioannis},
+    title     = {Enhancing Zero-Shot Facial Expression Recognition by LLM Knowledge Transfer},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {815-824}
 }
 ```
